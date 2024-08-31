@@ -1,0 +1,56 @@
+.WelcomePage {
+    background-color: rgba(30, 30, 30, 0.8);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .WelcomeContainer {
+    width: 50%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .WelcomeContainer > h1 {
+    color: white;
+    font-size: 2.5vmax;
+    font-family: "Roboto";
+    width: 30vmax;
+    border-bottom: 0.2vmax solid white;
+    text-align: center;
+    padding: 0.5vmax;
+  }
+  
+  #welcomeInput {
+    width: 30vmax;
+    padding: 1vmax;
+    border: none;
+    outline: none;
+    font-size: 1.2vmax;
+    font-family: "Roboto";
+    margin: 1.5vmax;
+    box-sizing: border-box;
+  }
+  
+  .welcomeBtn {
+    background-color: crimson;
+    color: white;
+    width: 30vmax;
+    padding: 1vmax;
+    border: none;
+    outline: none;
+    font-size: 1.2vmax;
+    font-family: "Roboto";
+    box-sizing: border-box;
+    transition: all 0.3s;
+    cursor: pointer;
+  }
+  
+  .welcomeBtn:hover {
+    background-color: rgb(180, 30, 60);
+  }
+  
