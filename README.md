@@ -1,13 +1,13 @@
-##Real-time Chat Application v1
+## Real-time Chat Application v1
 A basic chat application built using React, Node.js, Express, and Socket.IO, designed for real-time communication
 
-##Project Structure
+## Project Structure
   - chat-app -> React Application - handles the frontend
   - server -> Node, Express, SocketIO - handles the backend
 
-##Responsive design - optimized for mobile devices
+## Responsive design - optimized for mobile devices
 
-##Installation
+## Installation
   - Clone the repo:
       git clone https://github.com/Rohit7Patil/chat-app-v1.git
   - Install dependencies:
